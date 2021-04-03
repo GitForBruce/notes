@@ -35,8 +35,8 @@ def main():
     for i in range(nloops):                 # start threads
         threads[i].start()
 
-    for i in range(nloops):                 # wait for all，可以不调用
-        threads[i].join                     # threads to finish
+    for i in range(nloops):                 # wait for all
+        threads[i].join()                   # threads to finish
 
     print('all done at:', ctime())
 
