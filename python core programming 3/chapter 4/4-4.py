@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 """
 当实例化每个 Thread 对象时，把函数（target）和参数（args）传进去，然后得到返回的 Thread 实例。
 实例化 Thread（调用 Thread()）和调用 thread.start_new_thread()的最大区别是新线程不会立即开始执行。这是一个非常有用的同步功能，尤其是当你并不希望线程立即开始执行时。
@@ -13,6 +14,9 @@ join()方法将等待线程结束，或者在提供了超时时间的情况下�
 如果主线程还有其他事情要去做，而不是等待这些线程完成（例如其他处理或者等待新的客户端请求），就可以不调用 join()。
 join()方法只有在你需要等待线程完成的时候才是有用的。
 """
+
+# 方式一：创建 Thread 的实例，传给它一个函数
+
 import threading
 from time import sleep, ctime
 
