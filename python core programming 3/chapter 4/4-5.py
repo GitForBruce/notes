@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
 
 """
+方式二： 创建 Thread 的实例，传给它一个可调用的类实例
+
+Notes:
 当创建新线程时，Thread 类的代码将调用 ThreadFunc 对象，此时会调用__call__()这个特殊方法。
 由于我们已经有了要用到的参数，这里就不需要再将其传递给 Thread()的构造函数了，直接调用即可。
 """
+
 import threading
 from time import sleep, ctime
 
