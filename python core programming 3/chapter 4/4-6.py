@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-
+"""
+threading 模块
+方式三： 派生 Thread 的子类，并创建子类的实例
+
+
+"""
 
 import threading
 from time import sleep, ctime

@@ -3,6 +3,17 @@
 import _thread
 from time import sleep, ctime
 
+'''
+thread 模块：使用了 thread 模块提供的简单多线程机制
+
+starting at: Thu Apr  8 10:46:58 2021
+start loop 0 at: Thu Apr  8 10:46:58 2021
+start loop 1 at: Thu Apr  8 10:46:58 2021
+loop 1 done at: Thu Apr  8 10:47:00 2021
+loop 0 done at: Thu Apr  8 10:47:02 2021
+all done at: Thu Apr  8 10:47:04 2021
+'''
+
 def loop0():
     print('start loop 0 at:', ctime())
     sleep(4)

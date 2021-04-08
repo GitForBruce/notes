@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
+threading 模块
 方式二： 创建 Thread 的实例，传给它一个可调用的类实例
 
 Notes:

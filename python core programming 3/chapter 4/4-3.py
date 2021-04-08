@@ -5,6 +5,17 @@ from time import sleep, ctime
 
 loops = [4, 2]
 
+'''
+thread 模块：
+
+starting at: Thu Apr  8 10:50:45 2021
+start loop 1start loop at: 0  at: Thu Apr  8 10:50:45 2021
+Thu Apr  8 10:50:45 2021
+loop 1 done at: Thu Apr  8 10:50:47 2021
+loop 0 done at: Thu Apr  8 10:50:49 2021
+all done at: Thu Apr  8 10:50:49 2021
+'''
+
 def loop(nloop, nsec, lock):
     print("start loop", nloop, 'at:', ctime())
     sleep(nsec)
