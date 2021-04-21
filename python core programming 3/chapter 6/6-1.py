@@ -15,7 +15,7 @@ else:
 COLSIZ = 10
 FIELDS = ('login', 'userid', 'projid')
 RDBMSs = {'s': 'sqlite', 'm': 'mysql', 'g': 'gadfly'}
-DBHOST = '127.0.0.1'
+DBHOST = 'localhost'
 DBPORT = 3308
 DBNAME = 'test'
 DBUSER = 'root'
