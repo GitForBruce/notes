@@ -9,7 +9,7 @@ ADDR = (HOST, PORT)
 
 udpClient = socket(AF_INET, SOCK_DGRAM)
 
-while 1:
+while True:
     data = input('> ')
     if not data:
         break
